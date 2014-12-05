@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SundressSunset</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<header class="navbar navbar-static-top bs-docs-nav navbar-fixed-top" id="top" role="banner">
+  <div class="container">
+    <div class="navbar-header ">
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="../sunset" class="navbar-brand">Sundresses At Sunset</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="../sunset">About This Event</a>
+        </li>
+        <li>
+          <a href="../sunset">About This Chapter</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://expo.getbootstrap.com" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Expo');">FaceBook</a></li>
+        <li><a href="http://blog.getbootstrap.com" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Blog');">Twitter</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="bs-docs-header" id="content">
+	<div class="container">
+		<!-- <div class="jumbotron"> -->
+			<h2>Sundresses At Sunset</h2>
+			<p>Date and Time: Janurary XX, 2015 from 8:00pm - 12:00am</p>
+			<p>Location: TBD</p>
+			<br/>
+			<p>Presented to you by the Kappa Iota Chapter of Omega Psi Phi and The Pearl Group, INC</p>
+	</div>
+</div>
+	<div class="container">
+		<div class="embed-responsive embed-responsive-4by3">
+			<iframe class="embed-responsive-item" src="//www.youtube.com/embed/5CvIu5ORGmA" allowfullscreen></iframe>
+		</div> 
+	</div>
+<br/>	
+<div class="container">	
+	<div class="jumbotron">
+		<h2>Thanks to our sponsors</h2>
+		<p class="lead">Mocha</p>
+		<p>Allstate</p>
+		<p class="lead">Big River Grill and Brewing Works</p>
+		<p>Trianon Tequila</p>
+		<p>Georgia Winery</p>
+		<p>epb fiber optics</p>
+		<p>Chattanogga Wing Factory</p>
+		<p>Chattanogga Coca-Cola</p>
+	</div>
+</div>
+<hr>
+<footer>
+	<p>&copy; Company 2014</p>
+</footer>
+</div><!--/.container-->
+</body>
+</html>
